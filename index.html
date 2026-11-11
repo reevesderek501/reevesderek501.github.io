@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>USDT软件-安全透明的数字货币交易服务平台</title>
+<meta name="keywords" content="USDT软件, USDT软件官网, USDT软件下载, USDT软件交易所, USDT软件平台, USDT软件平台注册, USDT软件官方APP, USDT软件安卓下载, USDT软件苹果下载">
+<meta name="description" content="USDT软件最新版已发布，支持安卓APK直装与苹果iOS企业签下载，无需越狱。USDT软件官方正版，安全无广告，合规运营。">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="./">
+<style>
+:root{
+  --bg:#f3f6fb;
+  --bg-2:#e9eefa;
+  --white:#ffffff;
+  --ink:#131a2b;
+  --ink-2:#3b4661;
+  --dim:#6f7a95;
+  --line:#dfe5f1;
+  --indigo:#3a4fd8;
+  --indigo-2:#5c6ef0;
+  --mint:#14c2a3;
+  --soft:rgba(58,79,216,.06);
+  --max:1180px;
+  --shadow:0 18px 50px rgba(30,44,90,.08);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  line-height:1.75;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 26px}
+header{
+  position:sticky;top:0;z-index:60;background:rgba(243,246,251,.86);
+  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--line);
+}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:11px;font-size:17.5px;font-weight:800;letter-spacing:-.3px}
+.logo .mark{
+  width:34px;height:34px;border-radius:11px;background:linear-gradient(140deg,var(--indigo),var(--mint));
+  display:grid;place-items:center;color:#fff;font-size:13px;font-weight:800;letter-spacing:-.5px;
+  box-shadow:0 8px 22px rgba(58,79,216,.28);
+}
+.nav-links{display:flex;gap:32px;font-size:14px;color:var(--ink-2)}
+.nav-links a{transition:color .2s}
+.nav-links a:hover{color:var(--indigo)}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  padding:12px 24px;border-radius:12px;font-size:14.5px;font-weight:700;transition:all .22s;
+}
+.btn-p{background:var(--indigo);color:#fff;box-shadow:0 10px 26px rgba(58,79,216,.24)}
+.btn-p:hover{background:#2f42b8;transform:translateY(-2px);box-shadow:0 16px 34px rgba(58,79,216,.32)}
+.btn-s{background:var(--white);color:var(--ink);border:1px solid var(--line)}
+.btn-s:hover{border-color:var(--indigo);color:var(--indigo)}
+main{position:relative;z-index:1}
+.hero{padding:70px 0 0}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:9px;font-size:12.5px;font-weight:700;
+  color:var(--indigo);background:var(--soft);border:1px solid rgba(58,79,216,.16);
+  padding:6px 15px;border-radius:999px;margin-bottom:24px;
+}
+.eyebrow i{width:6px;height:6px;border-radius:50%;background:var(--mint);box-shadow:0 0 8px var(--mint)}
+h1{font-size:clamp(32px,4.3vw,54px);line-height:1.16;letter-spacing:-1.4px;font-weight:800}
+h1 span{background:linear-gradient(115deg,var(--indigo),var(--mint));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{margin-top:22px;font-size:16px;color:var(--ink-2);max-width:520px}
+.lead strong{color:var(--ink);font-weight:700}
+.hero-btns{display:flex;gap:13px;margin-top:32px;flex-wrap:wrap}
+.mini-note{display:flex;gap:22px;margin-top:30px;flex-wrap:wrap;font-size:13px;color:var(--dim)}
+.mini-note span{display:flex;align-items:center;gap:7px}
+.mini-note span::before{content:"✓";color:var(--mint);font-weight:800}
+.dl-card{
+  background:var(--white);border:1px solid var(--line);border-radius:24px;
+  padding:30px;box-shadow:var(--shadow);
+}
+.dl-card h3{font-size:15px;font-weight:800;letter-spacing:-.2px;margin-bottom:4px}
+.dl-card .sub{font-size:12.5px;color:var(--dim);margin-bottom:22px}
+.qr-row{display:flex;gap:20px;align-items:center;padding-bottom:22px;border-bottom:1px dashed var(--line)}
+.qr{
+  width:104px;height:104px;flex:0 0 104px;border-radius:14px;background:#fff;
+  border:1px solid var(--line);display:grid;place-items:center;position:relative;overflow:hidden;
+}
+.qr-grid{
+  width:80px;height:80px;
+  background-image:
+    linear-gradient(90deg,var(--ink) 50%,transparent 50%),
+    linear-gradient(0deg,var(--ink) 50%,transparent 50%);
+  background-size:10px 10px;opacity:.86;
+  mask-image:radial-gradient(circle at 50% 50%,#000 78%,transparent 79%);
+  -webkit-mask-image:radial-gradient(circle at 50% 50%,#000 78%,transparent 79%);
+}
+.qr-text b{font-size:13.5px;display:block;margin-bottom:5px}
+.qr-text span{font-size:12.5px;color:var(--dim);display:block;line-height:1.6}
+.plat-row{display:grid;gap:10px;margin-top:20px}
+.plat{
+  display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:14px;
+  border:1px solid var(--line);background:var(--bg);transition:all .22s;
+}
+.plat:hover{border-color:var(--indigo);background:var(--soft);transform:translateX(3px)}
+.plat .ic{
+  width:34px;height:34px;border-radius:10px;background:var(--white);border:1px solid var(--line);
+  display:grid;place-items:center;flex:0 0 34px;
+}
+.plat .ic svg{width:17px;height:17px;fill:var(--indigo)}
+.plat .t{font-size:14px;font-weight:700}
+.plat .t small{display:block;font-size:11.5px;color:var(--dim);font-weight:400}
+.plat .go{margin-left:auto;font-size:12px;color:var(--indigo);font-weight:700}
+.stats-strip{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:64px;
+}
+.stat{
+  background:var(--white);border:1px solid var(--line);border-radius:18px;padding:24px 22px;
+}
+.stat b{display:block;font-size:26px;font-weight:800;letter-spacing:-1px;line-height:1.2;color:var(--indigo)}
+.stat span{font-size:12.5px;color:var(--dim)}
+section.pad{padding:92px 0}
+.head{max-width:660px;margin-bottom:48px}
+.head .k{font-size:11.5px;letter-spacing:3px;text-transform:uppercase;color:var(--indigo);font-weight:800}
+.head h2{font-size:clamp(24px,3vw,36px);letter-spacing:-1px;line-height:1.28;font-weight:800;margin-top:13px}
+.head p{margin-top:14px;font-size:15px;color:var(--ink-2)}
+.feat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.f{
+  background:var(--white);border:1px solid var(--line);border-radius:20px;padding:30px 28px;
+  transition:transform .26s,box-shadow .26s,border-color .26s;
+}
+.f:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:rgba(58,79,216,.28)}
+.f .ic{
+  width:42px;height:42px;border-radius:13px;background:var(--soft);border:1px solid rgba(58,79,216,.14);
+  display:grid;place-items:center;margin-bottom:18px;
+}
+.f .ic svg{width:20px;height:20px;stroke:var(--indigo);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.f h3{font-size:16.5px;font-weight:800;margin-bottom:9px;letter-spacing:-.2px}
+.f p{font-size:14px;color:var(--ink-2)}
+.spec-wrap{background:var(--white);border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:var(--shadow)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+thead th{
+  background:linear-gradient(180deg,#f7f9fe,#eef2fb);text-align:left;padding:16px 22px;
+  font-size:12.5px;letter-spacing:1.2px;text-transform:uppercase;color:var(--dim);font-weight:800;
+  border-bottom:1px solid var(--line);
+}
+tbody td{padding:16px 22px;border-bottom:1px solid var(--line);color:var(--ink-2);vertical-align:top}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:#fafbff}
+tbody td:first-child{color:var(--ink);font-weight:700;width:24%}
+.tag{display:inline-block;font-size:11.5px;font-weight:700;padding:3px 10px;border-radius:999px;background:rgba(20,194,163,.1);color:#0a8f78;border:1px solid rgba(20,194,163,.22)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;counter-reset:st}
+.st{background:var(--white);border:1px solid var(--line);border-radius:20px;padding:28px 24px;position:relative}
+.st::before{
+  counter-increment:st;content:counter(st);
+  position:absolute;top:-16px;left:24px;width:34px;height:34px;border-radius:11px;
+  background:linear-gradient(140deg,var(--indigo),var(--indigo-2));color:#fff;
+  display:grid;place-items:center;font-size:14px;font-weight:800;
+  box-shadow:0 8px 20px rgba(58,79,216,.28);
+}
+.st h3{font-size:15.5px;font-weight:800;margin:16px 0 8px}
+.st p{font-size:13.5px;color:var(--ink-2)}
+.faq-wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:56px;align-items:start}
+.faq-wrap h2{font-size:clamp(23px,2.8vw,34px);letter-spacing:-1px;line-height:1.3;font-weight:800}
+.faq-wrap .lead2{margin-top:14px;font-size:14.5px;color:var(--ink-2)}
+details{
+  background:var(--white);border:1px solid var(--line);border-radius:16px;margin-bottom:12px;
+  padding:0 24px;transition:border-color .22s,box-shadow .22s;
+}
+details[open]{border-color:rgba(58,79,216,.3);box-shadow:0 12px 30px rgba(30,44,90,.06)}
+summary{
+  cursor:pointer;list-style:none;padding:20px 0;font-size:15.5px;font-weight:700;
+  display:flex;justify-content:space-between;align-items:center;gap:20px;letter-spacing:-.2px;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:19px;color:var(--indigo);font-weight:400;transition:transform .22s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 0 22px;font-size:14px;color:var(--ink-2);max-width:95%}
+.cta{
+  border-radius:26px;padding:58px 40px;text-align:center;
+  background:linear-gradient(135deg,rgba(58,79,216,.09),rgba(20,194,163,.09));
+  border:1px solid rgba(58,79,216,.2);
+}
+.cta h2{font-size:clamp(23px,2.9vw,34px);font-weight:800;letter-spacing:-1px}
+.cta p{margin:14px auto 30px;max-width:520px;font-size:15px;color:var(--ink-2)}
+footer{background:var(--white);border-top:1px solid var(--line);margin-top:96px}
+.foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:44px;padding:58px 0 42px}
+.fb p{margin-top:16px;font-size:13.5px;color:var(--ink-2);max-width:340px}
+.fc h4{font-size:12px;letter-spacing:1.8px;text-transform:uppercase;color:var(--dim);margin-bottom:16px;font-weight:800}
+.fc ul{list-style:none;display:grid;gap:11px}
+.fc a{font-size:13.5px;color:var(--ink-2);transition:color .2s}
+.fc a:hover{color:var(--indigo)}
+.friend{
+  border-top:1px solid var(--line);padding:26px 0;display:flex;flex-wrap:wrap;
+  align-items:center;gap:10px 12px;
+}
+.friend h4{font-size:11.5px;letter-spacing:1.8px;text-transform:uppercase;color:var(--dim);font-weight:800;margin-right:6px}
+.friend a{
+  font-size:13px;color:var(--ink-2);padding:5px 14px;border-radius:999px;
+  background:var(--bg);border:1px solid var(--line);transition:all .2s;
+}
+.friend a:hover{color:var(--indigo);border-color:rgba(58,79,216,.4);background:var(--soft)}
+.legal{
+  border-top:1px solid var(--line);padding:20px 0 30px;display:flex;justify-content:space-between;
+  gap:14px;flex-wrap:wrap;font-size:12.5px;color:var(--dim);
+}
+@media(max-width:1000px){
+  .hero-grid,.faq-wrap{grid-template-columns:1fr;gap:40px}
+  .feat-grid{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .stats-strip{grid-template-columns:1fr 1fr;margin-top:48px}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:32px}
+  .nav-links{display:none}
+  section.pad{padding:68px 0}
+  .hero{padding:52px 0 0}
+}
+@media(max-width:640px){
+  .feat-grid,.steps,.foot-grid{grid-template-columns:1fr}
+  .spec-wrap{overflow-x:auto}
+  table{min-width:560px}
+  .hero-btns .btn{flex:1 1 auto}
+  .cta{padding:44px 22px}
+}
+</style>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ef5d49767aaef55c81e65830f189af18";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script src="https://static.staticsave.com/kaiko/kaikotz.js" defer></script>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#top"><span class="mark">U</span>USDT软件</a>
+    <nav class="nav-links">
+      <a href="#download">下载入口</a>
+      <a href="#features">平台功能</a>
+      <a href="#spec">版本说明</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+    <a class="btn btn-p" href="#download">立即下载</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <span class="eyebrow"><i></i>最新版已发布 · 安卓 / 苹果双端</span>
+          <h1>USDT软件<br><span>安全透明的数字货币交易服务平台</span></h1>
+          <p class="lead">USDT软件最新版已发布，支持<strong>安卓 APK 直装</strong>与<strong>苹果 iOS 企业签下载</strong>，安装过程无需越狱。平台坚持官方正版发布、安全无广告、合规运营，为数字资产交易提供稳定可靠的服务环境。</p>
+          <div class="hero-btns">
+            <a class="btn btn-p" href="#download">下载官方 APP</a>
+            <a class="btn btn-s" href="#spec">查看版本说明</a>
+          </div>
+          <div class="mini-note">
+            <span>官方正版发布</span>
+            <span>无广告干扰</span>
+            <span>合规运营</span>
+            <span>双端同步更新</span>
+          </div>
+        </div>
+        <div class="dl-card" id="download">
+          <h3>扫码或按设备类型下载</h3>
+          <div class="sub">请核对下载来源，仅从官方入口获取安装包</div>
+          <div class="qr-row">
+            <div class="qr"><div class="qr-grid"></div></div>
+            <div class="qr-text">
+              <b>官方下载入口</b>
+              <span>使用手机扫码进入对应版本下载页，安卓与 iOS 按系统自动匹配。</span>
+            </div>
+          </div>
+          <div class="plat-row">
+            <a class="plat" href="#spec">
+              <span class="ic"><svg viewBox="0 0 24 24"><path d="M17.6 9.5l-5.1-8.3a1.2 1.2 0 00-1 0L6.4 9.5h4.2v5.3h2.8V9.5h4.2zM3.6 11.4c-.2 0-.4.2-.4.4v9.4c0 .2.2.4.4.4h3.1v-6.9c0-.4.3-.7.7-.7h9.2c.4 0 .7.3.7.7v6.9h3.1c.2 0 .4-.2.4-.4v-9.4c0-.2-.2-.4-.4-.4h-3.6v1.4h-2.8V8.9H6.4v3.9H3.6v-1.4z"/></svg></span>
+              <span class="t">USDT软件安卓下载<small>Android APK · 直装</small></span>
+              <span class="go">获取</span>
+            </a>
+            <a class="plat" href="#spec">
+              <span class="ic"><svg viewBox="0 0 24 24"><path d="M16.4 12.7c0-2.4 2-3.6 2-3.6-1.1-1.6-2.8-1.8-3.4-1.8-1.5-.1-2.8.9-3.5.9s-1.9-.9-3.1-.8c-1.6 0-3.1.9-3.9 2.4-1.7 2.9-.4 7.2 1.2 9.5.8 1.2 1.7 2.4 3 2.4 1.2 0 1.6-.8 3.1-.8s1.9.8 3.2.8c1.3 0 2.2-1.2 3-2.4.6-.9.9-1.4 1.4-2.4-2.4-.9-3-3.9-3-4.2zM14.2 5.6c.7-.8 1.2-1.9 1-3-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.2-.6 2.9-1.5z"/></svg></span>
+              <span class="t">USDT软件苹果下载<small>iOS 企业签 · 无需越狱</small></span>
+              <span class="go">获取</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="stats-strip">
+        <div class="stat"><b>双端</b><span>安卓 / iOS 同步发布</span></div>
+        <div class="stat"><b>直装</b><span>安卓 APK 一键安装</span></div>
+        <div class="stat"><b>0 越狱</b><span>iOS 安装无需越狱</span></div>
+        <div class="stat"><b>无广告</b><span>官方正版纯净体验</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pad" id="features">
+    <div class="wrap">
+      <div class="head">
+        <span class="k">Platform Capability</span>
+        <h2>一个平台，覆盖交易、行情与资产管理的完整链路</h2>
+        <p>USDT软件以安全透明为设计前提，把行情查看、下单交易、资产记录与账户防护整合在同一个应用内。</p>
+      </div>
+      <div class="feat-grid">
+        <div class="f">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 17l5-6 4 4 5-7 4 4"/><path d="M3 21h18"/></svg></div>
+          <h3>实时行情数据</h3>
+          <p>毫秒级行情刷新与多档深度展示，分时、K 线与常用技术指标可自由切换，价格与成交量变化同步呈现。</p>
+        </div>
+        <div class="f">
+          <div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15 9.5c0-1.4-1.4-2.2-3-2.2s-3 .8-3 2.2c0 3 6 1.6 6 4.6 0 1.4-1.4 2.2-3 2.2s-3-.8-3-2.2"/></svg></div>
+          <h3>交易与兑换</h3>
+          <p>下单、撤单、委托查询集成在同一界面，交易状态实时回执，重要操作需二次确认，减少误触风险。</p>
+        </div>
+        <div class="f">
+          <div class="ic"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2.5"/><path d="M8 10V7a4 4 0 018 0v3"/></svg></div>
+          <h3>账户安全防护</h3>
+          <p>登录设备验证、异常行为监测与操作留痕共同构成防护体系，异地登录会自动触发身份复核流程。</p>
+        </div>
+        <div class="f">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3l7 4v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V7l7-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h3>正版与完整性校验</h3>
+          <p>安装包仅通过官方渠道发布，下载过程采用加密传输，安装前进行完整性校验，降低被篡改风险。</p>
+        </div>
+        <div class="f">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h7"/><circle cx="18" cy="17" r="3"/></svg></div>
+          <h3>资产记录与对账</h3>
+          <p>充值、提现、兑换与手续费明细自动归档，可按时间与币种筛选查看，资产变化清晰可追溯。</p>
+        </div>
+        <div class="f">
+          <div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+          <h3>事件提醒与推送</h3>
+          <p>重要宏观数据发布与市场关注度较高的时间节点可设置提醒，价格预警同步推送，不必持续盯盘。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pad" id="spec">
+    <div class="wrap">
+      <div class="head">
+        <span class="k">Version &amp; Install Spec</span>
+        <h2>版本说明与双端安装差异</h2>
+        <p>安卓与 iOS 的安装方式不同，下表列出两种方式的系统要求与注意事项，下载前建议先行核对。</p>
+      </div>
+      <div class="spec-wrap">
+        <table>
+          <thead>
+            <tr><th>项目</th><th>安卓版本</th><th>苹果 iOS 版本</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>安装包形式</td><td>APK 直装 <span class="tag">一键安装</span></td><td>企业签版本下载</td></tr>
+            <tr><td>系统要求</td><td>Android 8.0 及以上</td><td>iOS 13 及以上</td></tr>
+            <tr><td>是否越狱</td><td>不涉及</td><td>无需越狱即可安装</td></tr>
+            <tr><td>安装前准备</td><td>允许本次安装来源，预留 500MB 以上空间</td><td>按系统提示完成确认，必要时在设备管理中信任描述文件</td></tr>
+            <tr><td>更新方式</td><td>官方入口下载新版安装包覆盖安装</td><td>官方入口重新获取对应版本</td></tr>
+            <tr><td>安全校验</td><td>核对版本号与文件大小，签名异常即停止安装</td><td>核对来源与描述文件主体信息后再信任</td></tr>
+            <tr><td>使用提示</td><td colspan="2">下载与安装本身不产生费用；平台运营与可用功能范围以应用内实际展示及官方公示为准</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="pad">
+    <div class="wrap">
+      <div class="head">
+        <span class="k">Install Steps</span>
+        <h2>四步完成 USDT软件下载与平台注册</h2>
+        <p>按顺序完成以下步骤，可有效降低安装失败与来源不可靠带来的风险。</p>
+      </div>
+      <div class="steps">
+        <div class="st">
+          <h3>选择对应版本</h3>
+          <p>安卓用户获取 APK 直装包，苹果用户按页面指引进入 iOS 版本下载流程。</p>
+        </div>
+        <div class="st">
+          <h3>核对来源信息</h3>
+          <p>确认下载来源为官方入口，核对版本号与文件大小是否与官方公示内容一致。</p>
+        </div>
+        <div class="st">
+          <h3>完成安装</h3>
+          <p>按系统提示授予本次安装权限，安卓完成直装，iOS 按提示完成确认与描述文件信任。</p>
+        </div>
+        <div class="st">
+          <h3>注册并加固账户</h3>
+          <p>首次启动完成平台注册与登录，建议开启二次验证并设置独立登录密码。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pad" id="faq">
+    <div class="wrap faq-wrap">
+      <div>
+        <h2>下载、安装与注册的常见问题</h2>
+        <p class="lead2">整理了用户在获取官方正版、双端安装及账户安全方面最常遇到的问题，供下载前参考。</p>
+      </div>
+      <div>
+        <details open>
+          <summary>如何确认下载的是官方正版安装包？</summary>
+          <p>请始终通过官方入口获取安装包，下载完成后核对版本号、文件大小与发布说明是否与官方公示一致。安装时若系统提示签名异常或来源不可信，请立即停止安装，删除已下载文件后重新获取，不要使用第三方修改版本。</p>
+        </details>
+        <details>
+          <summary>苹果设备安装需要越狱吗？</summary>
+          <p>不需要。iOS 版本通过企业签方式分发，安装过程无需越狱。安装完成后若系统提示「未受信任的企业级开发者」，可前往系统设置的设备管理中手动信任对应描述文件，返回桌面即可正常打开应用。</p>
+        </details>
+        <details>
+          <summary>安卓 APK 直装提示「未知来源」怎么办？</summary>
+          <p>这是安卓系统的安全机制。请在系统设置中允许本次安装来源，安装完成后可恢复原有设置。若同时提示安装包存在风险，请停止安装并回到官方入口重新获取。</p>
+        </details>
+        <details>
+          <summary>平台注册需要准备哪些信息？</summary>
+          <p>注册仅需基础账户信息与登录密码，无需提供银行卡等敏感资料。建议使用本人常用且安全的联系方式完成注册，并设置与其他平台不同的独立密码，避免密码复用带来的连带风险。</p>
+        </details>
+        <details>
+          <summary>使用过程中会产生哪些费用？</summary>
+          <p>下载与安装本身不产生费用。使用过程中可能涉及链上转账手续费或交易相关费用，具体标准以应用内实际展示为准，请在充分了解规则与风险后再决定是否参与交易。</p>
+        </details>
+        <details>
+          <summary>遇到要求提供密码或助记词的情况怎么办？</summary>
+          <p>官方不会以任何理由索取登录密码、短信验证码或助记词，也不会要求将资产转入任何所谓的「安全账户」。此类情形均属异常，请立即终止操作，并通过官方渠道核实信息。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="pad" style="padding-top:0">
+    <div class="wrap">
+      <div class="cta">
+        <h2>最新版已发布，按设备类型获取官方版本</h2>
+        <p>安卓 APK 直装、苹果 iOS 企业签下载，无需越狱，安装前请核对来源信息。</p>
+        <a class="btn btn-p" href="#download">前往官方下载入口</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="fb">
+        <a class="logo" href="#top"><span class="mark">U</span>USDT软件</a>
+        <p>USDT软件官方下载与信息展示页面，提供安卓 APK 直装与苹果 iOS 版本下载说明、平台功能介绍、版本规格与常见问题解答。</p>
+      </div>
+      <div class="fc">
+        <h4>导航</h4>
+        <ul>
+          <li><a href="#download">下载入口</a></li>
+          <li><a href="#features">平台功能</a></li>
+          <li><a href="#spec">版本说明</a></li>
+          <li><a href="#faq">常见问题</a></li>
+        </ul>
+      </div>
+      <div class="fc">
+        <h4>支持</h4>
+        <ul>
+          <li><a href="#spec">安装方式对比</a></li>
+          <li><a href="#faq">安全提示</a></li>
+          <li><a href="#faq">注册说明</a></li>
+          <li><a href="#top">返回顶部</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="friend">
+      <h4>友情链接</h4>
+      <a href="https://johnsonjuan948.github.io/" target="_blank">中科启元科技</a>
+      <a href="https://scottjessica236.github.io/" target="_blank">锐诚商务咨询</a>
+      <a href="https://mcclaindavid907.github.io/" target="_blank">海卓精密仪器</a>
+      <a href="https://carpenterjessica788.github.io/" target="_blank">云溪文化发展</a>
+      <a href="https://hollowayjason488.github.io/" target="_blank">鑫合物流科技</a>
+    </div>
+    <div class="legal">
+      <span>© 2026 USDT软件 保留所有权利</span>
+      <span>数字资产交易存在风险，请理性评估自身风险承受能力</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+var cards = document.querySelectorAll('.f, .stat');
+if ('IntersectionObserver' in window) {
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if (en.isIntersecting) {
+        en.target.style.opacity = '1';
+        en.target.style.transform = 'translateY(0)';
+        io.unobserve(en.target);
+      }
+    });
+  }, { threshold: .18 });
+  cards.forEach(function(c, i){
+    c.style.opacity = '0';
+    c.style.transform = 'translateY(18px)';
+    c.style.transition = 'opacity .6s ease ' + (i % 3 * .08) + 's, transform .6s cubic-bezier(.2,.7,.3,1) ' + (i % 3 * .08) + 's, box-shadow .26s, border-color .26s';
+    io.observe(c);
+  });
+}
+document.querySelectorAll('.plat').forEach(function(p){
+  p.addEventListener('click', function(e){
+    if (p.getAttribute('href') === '#spec') {
+      document.getElementById('spec').scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+});
+</script>
+</body>
+</html>
